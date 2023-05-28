@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.flex-center {
+  @apply flex items-center justify-center;
+}
+input,
+textarea,
+.input {
+  @apply w-full resize-none rounded border border-slate-500 bg-transparent py-2 px-3 text-left focus:border-purple focus:outline-0;
+}
+.label {
+  @apply mb-2 block text-sm;
+}
+.btn {
+  @apply flex w-full items-center justify-center rounded-full py-2 pr-6 pl-5 hover:opacity-90;
+}
+input[type='checkbox'] {
+  @apply mr-4 h-4 w-4 cursor-pointer appearance-none place-content-center rounded-sm bg-dark-2 p-2;
+}
+input[type='checkbox']:checked {
+  @apply bg-purple;
+}
+.activeNav {
+  @apply bg-purple text-white hover:opacity-90;
+}
+.activeNav {
+  @apply hover:bg-purple hover:bg-opacity-40;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+}
+/* 
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #646464;
+  border-radius: 20px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #646464;
+} */
