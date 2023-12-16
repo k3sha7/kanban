@@ -1,6 +1,6 @@
 # Kanban Board
 
-Live preview: **<https://k3sha7.github.io/kanban/>**
+Live preview: **<https://kanban-six-ecru.vercel.app/>**
 
 Kanban is a task management app built with react which has all the basic features implemented like 
 
